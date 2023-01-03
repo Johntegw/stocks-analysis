@@ -18,13 +18,17 @@ In this challenge, we will edit, or refactor, the Module 2 solution code to loop
 Before the refactoring of the already established code, there were run time errors that didn't allow the code to run properly. (see exhibit A) So looking at the code and making a few changes, I was able to get the code to run and process the analysis of the stockes between two years. (see screen shots)  For YR 2017 the process time went from having errors to .09375 seconds. The stock volumes and returns were as follows: 
             The stock with the lowest volumes in 2017 ended up having the highest return. That was ticker DQ with 35,796,200 in vol. and return was 199.4%
             The ticker with the lowest return was ticker TERP at -7.2%
-VBA_Challenge_2017.png.png
-Stock Ticker Prices 2017.png
+![VBA_Challenge_2017 png](https://user-images.githubusercontent.com/119356389/210444635-681d846e-2287-411f-bb7f-99f1c7149b98.png)
+![Stock Ticker Prices 2017](https://user-images.githubusercontent.com/119356389/210444690-657e8fc5-233e-4d5e-be4f-fa45dfcac4f7.png)
+
+
 
 The processing time for year 2018 was .109375; stock volumes and returns for YR 2018 were as follows: 
             The stock with the highest return was RUN at 84% while volumes were only 502,757,100; and the lowest returns were from stock DQ at 162.6% with 107,873,900 in volumes 
-VBA_Challenge_2018.png.png
-Stock Ticker Prices 2018.png
+![VBA_Challenge_2018 png](https://user-images.githubusercontent.com/119356389/210444809-7f607cf0-c77f-49dc-812f-03ae7cc29582.png)
+![Stock Ticker Prices 2018](https://user-images.githubusercontent.com/119356389/210444855-87ac8a69-39eb-4d84-bc67-2bc9581a5013.png)
+
+
 
 Based on these data sets for both 2017 and 2018 years, is seems that the returns were not predicated on the volumes of the stock.  Following is the refactor code I was able to use to get the outcomes for the challenge:
     '1a) Create a ticker Index
